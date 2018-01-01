@@ -15,4 +15,4 @@ The firmware can be compiled and burned to an ESP8266 microcontroller using the 
 
 ## License:
 
-The design files for the PCB and the enclosure are all distributed under the [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license. The source code for the firmware is distributed under the MIT license.
+The design files for the PCB and the enclosure are all distributed under the [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license. The source code for the firmware and the server are distributed under the MIT license.
