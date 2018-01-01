@@ -1,6 +1,8 @@
 Temperature and Humidity Monitor
 ================================
 
+![Device](/device.jpg?raw=true)
+
 ## Description:
 
 These are the PCB design files and source code for my ESP8266 based temperature and humidity monitor.
