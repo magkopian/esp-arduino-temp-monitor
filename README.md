@@ -7,7 +7,7 @@ Temperature and Humidity Monitor
 
 These are the PCB design files and source code for my ESP8266 based temperature and humidity monitor.
 
-The [board](/board) directory contains the KiCAD schematic and PCB layout files together with the [gerber files](/board/gerbers). While the [firmware](/firmware) directory, contains the Arduino source code for the ESP8266. The design files for the enclosure can be found on [Thingiverse](https://www.thingiverse.com/thing:2740731).
+The [board](/board) directory contains the KiCAD schematic and PCB layout files together with the [gerber files](/board/gerbers). While the [firmware](/firmware) directory, contains the Arduino source code for the ESP8266. The [server](/server) directory contains the server side script that logs the received data, as well as an SQL file for creating the database tables. Finally, the design files for the enclosure can be found on [Thingiverse](https://www.thingiverse.com/thing:2740731).
 
 ## Programming Instructions:
 
