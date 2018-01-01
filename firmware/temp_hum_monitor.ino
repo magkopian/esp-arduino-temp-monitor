@@ -1,3 +1,8 @@
+/*
+* Copyright (c) 2017 Manolis Agkopian
+* See the file LICENCE for copying permission.
+*/
+
 #include <Arduino.h>
 
 #include <ESP8266WiFi.h>
