@@ -1,6 +1,6 @@
 /*
 * Copyright (c) 2017 Manolis Agkopian
-* See the file LICENCE for copying permission.
+* See the file LICENSE for copying permission.
 */
 
 #include <Arduino.h>

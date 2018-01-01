@@ -1,4 +1,9 @@
 <?php
+/*
+* Copyright (c) 2017 Manolis Agkopian
+* See the file LICENSE for copying permission.
+*/
+
 define('MYSQL_USER', '[username]');
 define('MYSQL_PASSWD', '[password]');
 define('MYSQL_HOST', '127.0.0.1');
