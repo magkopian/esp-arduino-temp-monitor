@@ -34,11 +34,11 @@ if ( $_SERVER['REQUEST_METHOD'] === 'GET' ) {
 	for ( $i = 0; $i < 24; ++$i ) {
 
 		if ( !empty($data['temperature']) ) {
-			$temperature_data[] = $data['temperature'][$current_hour]['avg_value'];
+			$temperature_data[] = $data['temperature'][$current_hour]['avg_value'] ?? null;
 		}
 
 		if ( !empty($data['humidity']) ) {
-			$humidity_data[] = $data['humidity'][$current_hour]['avg_value'];
+			$humidity_data[] = $data['humidity'][$current_hour]['avg_value'] ?? null;
 		}
 
 		$labels[] = $day_hours[$current_hour];
@@ -54,6 +54,9 @@ if ( $_SERVER['REQUEST_METHOD'] === 'GET' ) {
 * Fetches the temperature and humidity from the database
 */
 function fetch_data ($client_id, $to, $from) {
+
+	$temperature_data = [];
+	$humidity_data = [];
 
 	try {
 		$dbh = new PDO('mysql:dbname=' . MYSQL_DATABASE . ';host=' . MYSQL_HOST, MYSQL_USER, MYSQL_PASSWD);
